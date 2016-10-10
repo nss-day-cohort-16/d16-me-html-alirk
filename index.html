@@ -11,9 +11,11 @@
 
 	<body>
 		<div id="wrapper">
+		<div id="background">
 			<header>
+				<!-- NAVBAR -->
 				<nav class="navbar navbar-default">
-				  <div class="container-fluid">
+				  <div class="myMenu container-fluid">
 				    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
 				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,48 +24,56 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-<!-- 				      <a class="navbar-brand" href="#">Brand</a> -->
+				      <!-- <a class="navbar-brand" href="#">Brand</a> -->
 				    </div>
-
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav navbar-right">
-				        <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
-				        <li><a href="#">Portfolio</a></li>
-				        <li><a href="#">Links</a></li>
+				        <li><a href="#">Technologies</a></li>
+<!-- 				        <li><a href="#">Portfolio</a></li> -->
+				        <li><a href="#">About</a></li>
+				        <li><a href="#">Contact</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
 				</nav>
 			</header>
 			
-			<main>
 				<div id="main-header">
 					<h1>Ali Kimbrell</h1>
 					<h3>Software Developer</h3>
 				</div>
 
-				<article id="bio">
-					
+				<article class="block" id="technologies">
+					<h4>Technologies</h4>
+					<img src="images/bootstrap.png" class="tech">
+					<img src="images/git.png" class="tech">
+					<img src="images/js.jpg" class="tech">
+					<h5>I also know about:</h5>
 				</article>					
 
-				<article id="portfolio">
-					
+				<article class="hidden block" id="portfolio">
+					<h4>Portfolio</h4>
 				</article>
 
-				<article id="links">
+				<article class="block" id="about">
+					<h4>About</h4>
+				</article>
+
+				<article class="block" id="contact">
+					<h4>Contact</h4>
 					
 				</article>
 			</main>
-
+		</div>
 			<footer>
 				<div id="email">
 					<a href="alexandrakimbrell@gmail.com">alexandrakimbrell@gmail.com</a>
 				</div>
 				<div id="social-logos">
-				    <a href="https://github.com/alirk/"><img class="logos" src="images/github-logo.png"></a>
-				    <a href="#"><img class="logos" src="images/linkedin-logo.png"></a>
-				    <a href="https://twitter.com/ali_kimbrell"><img class="logos" src="images/twitter-logo.png"></a>
+				    <a href="https://github.com/alirk/"><img class="social-logos" src="images/github-logo.png"></a>
+				    <a href="#"><img class="social-logos" src="images/linkedin-logo.png"></a>
+				    <a href="https://twitter.com/ali_kimbrell"><img class="social-logos" src="images/twitter-logo.png"></a>
 				</div>
 				<p>&copy Copyright Ali Kimbrell 2016</p>
 			</footer>

@@ -58,12 +58,34 @@ a:active {
 a:hover {
 	color: #D890FF;
 }
+.block {
+	margin: 30px;
+}
 
-.logos {
+.tech {
+	width: 100px;
+	length: 100px;
+	display: block;
+	margin: 10px;
+}
+
+.social-logos {
 	width: 75px;
 	length: 75px;
 	display: inline-block;
 	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.myMenu {
+	background-color: transparent;
+}
+
+#background {
+	background-image: url("images/test.jpg");
 }
 
 #email {
