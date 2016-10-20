@@ -1,0 +1,20 @@
+{
+  "name": "d16-me-html-alirk",
+  "homepage": "https://github.com/nss-day-cohort-16/d16-me-html-alirk",
+  "authors": [
+    "Ali Kimbrell <alexandrakimbrell@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
